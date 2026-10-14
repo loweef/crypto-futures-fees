@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "name": "loweef Crypto Futures Fee Index changelog",
+  "license": {
+    "id": "CC-BY-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "entries": [
+    {
+      "date": "2026-10-14",
+      "contentHash": "4d892c50",
+      "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-10-14.json",
+      "summary": [
+        "Initial public release (8 exchanges)"
+      ],
+      "changes": [
+        {
+          "type": "initial",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}
