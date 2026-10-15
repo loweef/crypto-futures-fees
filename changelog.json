@@ -8,6 +8,47 @@
   },
   "entries": [
     {
+      "date": "2026-10-15",
+      "contentHash": "765fbb65",
+      "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-10-15.json",
+      "summary": [
+        "MEXC source https://loweef.io/en/exchange/mexc/ → https://www.mexc.com/fee",
+        "AlphaX source https://loweef.io/en/exchange/alphax/ → https://www.alphax.com/en-us/fees",
+        "BingX source https://loweef.io/en/exchange/bingx/ → https://bingx.com/en/support/costs/futures",
+        "OKX source https://loweef.io/en/exchange/okx/ → https://www.okx.com/fees"
+      ],
+      "changes": [
+        {
+          "type": "changed",
+          "exchange": "MEXC",
+          "field": "source",
+          "from": "https://loweef.io/en/exchange/mexc/",
+          "to": "https://www.mexc.com/fee"
+        },
+        {
+          "type": "changed",
+          "exchange": "AlphaX",
+          "field": "source",
+          "from": "https://loweef.io/en/exchange/alphax/",
+          "to": "https://www.alphax.com/en-us/fees"
+        },
+        {
+          "type": "changed",
+          "exchange": "BingX",
+          "field": "source",
+          "from": "https://loweef.io/en/exchange/bingx/",
+          "to": "https://bingx.com/en/support/costs/futures"
+        },
+        {
+          "type": "changed",
+          "exchange": "OKX",
+          "field": "source",
+          "from": "https://loweef.io/en/exchange/okx/",
+          "to": "https://www.okx.com/fees"
+        }
+      ]
+    },
+    {
       "date": "2026-10-14",
       "contentHash": "4d892c50",
       "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-10-14.json",

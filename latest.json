@@ -17,7 +17,7 @@
     "html": "Source: <a href=\"https://loweef.io/en/crypto-futures-fee-index/\">loweef Crypto Futures Fee Index</a> (CC BY 4.0)"
   },
   "asOf": "2026-10-12",
-  "generatedAt": "2026-10-14T13:07:19.755Z",
+  "generatedAt": "2026-10-15T10:09:04.500Z",
   "staleDays": 120,
   "units": {
     "fees": "percent of notional per fill",
@@ -51,7 +51,7 @@
       "effectiveTakerFeePct": 0.018,
       "effectiveMakerFeePct": 0,
       "lastChecked": "2026-10-08",
-      "source": "https://loweef.io/en/exchange/mexc/",
+      "source": "https://www.mexc.com/fee",
       "notes": [
         {
           "field": "makerFeePct",
@@ -70,7 +70,7 @@
       "effectiveTakerFeePct": 0.0175,
       "effectiveMakerFeePct": 0.007,
       "lastChecked": "2026-09-18",
-      "source": "https://loweef.io/en/exchange/alphax/",
+      "source": "https://www.alphax.com/en-us/fees",
       "notes": []
     },
     {
@@ -101,7 +101,7 @@
       "effectiveTakerFeePct": 0.02,
       "effectiveMakerFeePct": 0.008,
       "lastChecked": "2026-09-15",
-      "source": "https://loweef.io/en/exchange/bingx/",
+      "source": "https://bingx.com/en/support/costs/futures",
       "notes": []
     },
     {
@@ -132,7 +132,7 @@
       "effectiveTakerFeePct": 0.025,
       "effectiveMakerFeePct": 0.01,
       "lastChecked": "2026-09-27",
-      "source": "https://loweef.io/en/exchange/okx/",
+      "source": "https://www.okx.com/fees",
       "notes": []
     },
     {
@@ -164,5 +164,5 @@
       "notes": []
     }
   ],
-  "contentHash": "4d892c50"
+  "contentHash": "765fbb65"
 }

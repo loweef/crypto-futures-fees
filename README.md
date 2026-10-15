@@ -56,6 +56,7 @@ Plain text: Source: loweef Crypto Futures Fee Index, https://loweef.io/en/crypto
 
 ## Recent changes
 
+- 2026-10-15: MEXC source https://loweef.io/en/exchange/mexc/ → https://www.mexc.com/fee; AlphaX source https://loweef.io/en/exchange/alphax/ → https://www.alphax.com/en-us/fees; BingX source https://loweef.io/en/exchange/bingx/ → https://bingx.com/en/support/costs/futures; OKX source https://loweef.io/en/exchange/okx/ → https://www.okx.com/fees
 - 2026-10-14: Initial public release (8 exchanges)
 
 Exchanges change their fees. Check the exchange before you trade. This data is information, not financial advice.
