@@ -64,6 +64,8 @@ Source: <a href="https://loweef.io/en/crypto-futures-fee-index/">loweef Crypto F
 
 Plain text: Source: loweef Crypto Futures Fee Index, https://loweef.io/en/crypto-futures-fee-index/
 
+Citation metadata: `CITATION.cff` and `.zenodo.json` describe the same dataset; Zenodo archives each GitHub release using `.zenodo.json`, which takes precedence over `CITATION.cff` there.
+
 ## Recent changes
 
 - 2026-10-15: MEXC source https://loweef.io/en/exchange/mexc/ → https://www.mexc.com/fee; AlphaX source https://loweef.io/en/exchange/alphax/ → https://www.alphax.com/en-us/fees; BingX source https://loweef.io/en/exchange/bingx/ → https://bingx.com/en/support/costs/futures; OKX source https://loweef.io/en/exchange/okx/ → https://www.okx.com/fees

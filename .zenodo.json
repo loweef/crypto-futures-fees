@@ -1,0 +1,25 @@
+{
+  "title": "loweef Crypto Futures Fee Index",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "loweef"
+    }
+  ],
+  "description": "<p>Standard (VIP 0) USDT-margined perpetual futures taker/maker fees by exchange, the user fee-rebate rate available via loweef, and the resulting effective fee. Every row carries the date it was last checked against the exchange's official fee page.</p>\n<p>Files: <code>latest.json</code> / <code>latest.csv</code> (full dataset), <code>fees-only.json</code> / <code>fees-only.csv</code> (exchange fees only, no rebate columns), <code>changelog.json</code> (every published change) and <code>snapshots/YYYY-MM-DD.json</code> (immutable copy of the dataset on each day its content changed).</p>\n<p>Method: <a href=\"https://loweef.io/en/crypto-futures-fee-index/#method\">https://loweef.io/en/crypto-futures-fee-index/#method</a></p>\n<p>Disclosure: loweef is a fee-rebate service with affiliate ties to some of the listed exchanges; the fees-only files exclude all commercial fields.</p>",
+  "keywords": [
+    "crypto futures fees",
+    "taker fee",
+    "maker fee",
+    "fee rebate",
+    "perpetual futures"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://loweef.io/en/crypto-futures-fee-index/",
+      "relation": "isSupplementTo"
+    }
+  ]
+}
