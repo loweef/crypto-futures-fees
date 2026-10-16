@@ -14,6 +14,7 @@ Standard (VIP 0) USDT-margined perpetual futures taker and maker fees by exchang
 |---|---|
 | `latest.json` | Current dataset (schema v1) |
 | `latest.csv` | Same rows as CSV (first line is a license/source comment) |
+| `fees-only.json` / `fees-only.csv` | Fees only: exchange, taker and maker fee, check date, official source and footnotes. No rebate columns |
 | `changelog.json` | Every published change, newest first, with a link to the snapshot |
 | `snapshots/YYYY-MM-DD.json` | Immutable copy of the dataset on the day its content changed |
 
@@ -33,6 +34,15 @@ This repository only mirrors the published files. Commits happen only when the c
 | Bitget | reference | 0.06% | 0.02% | — | — | 0.06% | 2026-10-12 |
 
 \* MEXC: MEXC may apply a different futures maker fee in some regions (such as parts of Asia, the Middle East, Africa and Latin America). Go by the rate shown on your trading screen.
+
+## Fees only
+
+`fees-only.json` and `fees-only.csv` carry the same rows as `latest.*` without the rebate columns (`kind`, `user_rebate_pct`, `welcome_boost_*`, `effective_*`). Columns: `exchange_id`, `exchange`, `taker_fee_pct`, `maker_fee_pct`, `last_checked`, `source`, `notes`. Use them when you only need exchange fees.
+
+Footnotes:
+
+- MEXC (`takerFeePct`): Taker 0.04% is the standard rate for the USDT-M BTCUSDT perpetual. MEXC sets futures fees per contract, and this value matches the official fee page (Futures tab, checked 2026-10-14), the public contract API (BTC_USDT, checked 2026-10-08) and the fee charged on a real trade (checked 2026-08-24). Other contracts can differ (for example ETHUSDT taker 0.02%), so a table that lists 0.02% for MEXC may be quoting a different contract.
+- MEXC (`makerFeePct`): MEXC may apply a different futures maker fee in some regions (such as parts of Asia, the Middle East, Africa and Latin America). Go by the rate shown on your trading screen.
 
 ## Fields
 

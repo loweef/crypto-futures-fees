@@ -1,0 +1,10 @@
+# loweef Crypto Futures Fee Index (fees only) · as of 2026-10-12 · CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/) · Source: loweef Crypto Futures Fee Index https://loweef.io/en/crypto-futures-fee-index/
+exchange_id,exchange,taker_fee_pct,maker_fee_pct,last_checked,source,notes
+mexc,MEXC,0.04,0,2026-10-08,https://www.mexc.com/fee,"taker_fee_pct: Taker 0.04% is the standard rate for the USDT-M BTCUSDT perpetual. MEXC sets futures fees per contract, and this value matches the official fee page (Futures tab, checked 2026-10-14), the public contract API (BTC_USDT, checked 2026-10-08) and the fee charged on a real trade (checked 2026-08-24). Other contracts can differ (for example ETHUSDT taker 0.02%), so a table that lists 0.02% for MEXC may be quoting a different contract. | maker_fee_pct: MEXC may apply a different futures maker fee in some regions (such as parts of Asia, the Middle East, Africa and Latin America). Go by the rate shown on your trading screen."
+alphax,AlphaX,0.05,0.02,2026-09-18,https://www.alphax.com/en-us/fees,
+binance,Binance,0.05,0.02,2026-10-12,https://www.binance.com/en/fee/futureFee,
+bingx,BingX,0.05,0.02,2026-09-15,https://bingx.com/en/support/costs/futures,
+kraken,Kraken,0.05,0.02,2026-10-12,https://www.kraken.com/features/fee-schedule,
+okx,OKX,0.05,0.02,2026-09-27,https://www.okx.com/fees,
+bybit,Bybit,0.055,0.02,2026-10-12,https://www.bybit.com/en/help-center/article/Trading-Fee-Structure,
+bitget,Bitget,0.06,0.02,2026-10-12,https://www.bitget.com/support/articles/12560603817155,

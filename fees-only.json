@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "name": "loweef Crypto Futures Fee Index (fees only)",
+  "description": "Standard (VIP 0) USDT-margined perpetual futures taker and maker fees by exchange, with the date each row was checked against the exchange and its official source. Fee columns only.",
+  "publisher": {
+    "name": "loweef",
+    "url": "https://loweef.io"
+  },
+  "license": {
+    "id": "CC-BY-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "attribution": {
+    "text": "Source: loweef Crypto Futures Fee Index",
+    "url": "https://loweef.io/en/crypto-futures-fee-index/",
+    "html": "Source: <a href=\"https://loweef.io/en/crypto-futures-fee-index/\">loweef Crypto Futures Fee Index</a> (CC BY 4.0)"
+  },
+  "asOf": "2026-10-12",
+  "staleDays": 120,
+  "units": {
+    "fees": "percent of notional per fill"
+  },
+  "definitions": {
+    "takerFeePct": "Standard (VIP 0) taker fee, percent of notional per fill.",
+    "makerFeePct": "Standard (VIP 0) maker fee, percent of notional per fill.",
+    "lastChecked": "Date the row was last checked against the exchange. Rows older than 120 days are removed.",
+    "source": "Official fee page of the exchange where the row was checked.",
+    "notes": "Footnotes on how a value applies (field = the column it explains)."
+  },
+  "distributions": {
+    "page": "https://loweef.io/en/crypto-futures-fee-index/",
+    "json": "https://loweef.io/data/fees/v1/fees-only.json",
+    "csv": "https://loweef.io/data/fees/v1/fees-only.csv"
+  },
+  "exchanges": [
+    {
+      "id": "mexc",
+      "name": "MEXC",
+      "takerFeePct": 0.04,
+      "makerFeePct": 0,
+      "lastChecked": "2026-10-08",
+      "source": "https://www.mexc.com/fee",
+      "notes": [
+        {
+          "field": "takerFeePct",
+          "text": "Taker 0.04% is the standard rate for the USDT-M BTCUSDT perpetual. MEXC sets futures fees per contract, and this value matches the official fee page (Futures tab, checked 2026-10-14), the public contract API (BTC_USDT, checked 2026-10-08) and the fee charged on a real trade (checked 2026-08-24). Other contracts can differ (for example ETHUSDT taker 0.02%), so a table that lists 0.02% for MEXC may be quoting a different contract."
+        },
+        {
+          "field": "makerFeePct",
+          "text": "MEXC may apply a different futures maker fee in some regions (such as parts of Asia, the Middle East, Africa and Latin America). Go by the rate shown on your trading screen."
+        }
+      ]
+    },
+    {
+      "id": "alphax",
+      "name": "AlphaX",
+      "takerFeePct": 0.05,
+      "makerFeePct": 0.02,
+      "lastChecked": "2026-09-18",
+      "source": "https://www.alphax.com/en-us/fees",
+      "notes": []
+    },
+    {
+      "id": "binance",
+      "name": "Binance",
+      "takerFeePct": 0.05,
+      "makerFeePct": 0.02,
+      "lastChecked": "2026-10-12",
+      "source": "https://www.binance.com/en/fee/futureFee",
+      "notes": []
+    },
+    {
+      "id": "bingx",
+      "name": "BingX",
+      "takerFeePct": 0.05,
+      "makerFeePct": 0.02,
+      "lastChecked": "2026-09-15",
+      "source": "https://bingx.com/en/support/costs/futures",
+      "notes": []
+    },
+    {
+      "id": "kraken",
+      "name": "Kraken",
+      "takerFeePct": 0.05,
+      "makerFeePct": 0.02,
+      "lastChecked": "2026-10-12",
+      "source": "https://www.kraken.com/features/fee-schedule",
+      "notes": []
+    },
+    {
+      "id": "okx",
+      "name": "OKX",
+      "takerFeePct": 0.05,
+      "makerFeePct": 0.02,
+      "lastChecked": "2026-09-27",
+      "source": "https://www.okx.com/fees",
+      "notes": []
+    },
+    {
+      "id": "bybit",
+      "name": "Bybit",
+      "takerFeePct": 0.055,
+      "makerFeePct": 0.02,
+      "lastChecked": "2026-10-12",
+      "source": "https://www.bybit.com/en/help-center/article/Trading-Fee-Structure",
+      "notes": []
+    },
+    {
+      "id": "bitget",
+      "name": "Bitget",
+      "takerFeePct": 0.06,
+      "makerFeePct": 0.02,
+      "lastChecked": "2026-10-12",
+      "source": "https://www.bitget.com/support/articles/12560603817155",
+      "notes": []
+    }
+  ]
+}
