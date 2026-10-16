@@ -1,5 +1,7 @@
 # Crypto Futures Fee Index — open data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23410593.svg)](https://doi.org/10.5281/zenodo.23410593)
+
 Source: loweef Crypto Futures Fee Index — https://loweef.io/en/crypto-futures-fee-index/ (CC BY 4.0)
 
 Standard (VIP 0) USDT-margined perpetual futures taker and maker fees by exchange, the user fee-rebate rate available via [loweef](https://loweef.io/en/crypto-futures-fee-index/), and the resulting effective fee. Every row carries the date it was last checked against the exchange's official fee page.
@@ -63,6 +65,8 @@ Source: <a href="https://loweef.io/en/crypto-futures-fee-index/">loweef Crypto F
 ```
 
 Plain text: Source: loweef Crypto Futures Fee Index, https://loweef.io/en/crypto-futures-fee-index/
+
+DOI (all versions, archived on Zenodo): https://doi.org/10.5281/zenodo.23410593. Each GitHub release also gets its own version DOI on Zenodo.
 
 Citation metadata: `CITATION.cff` and `.zenodo.json` describe the same dataset; Zenodo archives each GitHub release using `.zenodo.json`, which takes precedence over `CITATION.cff` there.
 
