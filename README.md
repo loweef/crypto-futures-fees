@@ -6,7 +6,7 @@ Source: loweef Crypto Futures Fee Index — https://loweef.io/en/crypto-futures-
 
 Standard (VIP 0) USDT-margined perpetual futures taker and maker fees by exchange, the user fee-rebate rate available via [loweef](https://loweef.io/en/crypto-futures-fee-index/), and the resulting effective fee. Every row carries the date it was last checked against the exchange's official fee page.
 
-- Data as of: **2026-10-12** (latest row check date)
+- Data as of: **2026-10-16** (latest row check date)
 - Human-readable page, method and FAQ: https://loweef.io/en/crypto-futures-fee-index/
 - Live files: https://loweef.io/data/fees/v1/latest.json · https://loweef.io/data/fees/v1/latest.csv · https://loweef.io/data/fees/v1/changelog.json
 
@@ -27,11 +27,11 @@ This repository only mirrors the published files. Commits happen only when the c
 | Exchange | Type | Taker | Maker | User rebate | Welcome boost | Effective taker | Last checked |
 |---|---|---|---|---|---|---|---|
 | MEXC | partner | 0.04% | 0%* | 55% | 65% for 2 weeks | 0.018% | 2026-10-08 |
-| AlphaX | partner | 0.05% | 0.02% | 65% | — | 0.0175% | 2026-09-18 |
+| AlphaX | partner | 0.05% | 0.02% | 65% | — | 0.0175% | 2026-10-16 |
 | Binance | reference | 0.05% | 0.02% | — | — | 0.05% | 2026-10-12 |
-| BingX | partner | 0.05% | 0.02% | 60% | 70% for 2 weeks | 0.02% | 2026-09-15 |
+| BingX | partner | 0.05% | 0.02% | 60% | 70% for 2 weeks | 0.02% | 2026-10-16 |
 | Kraken | reference | 0.05% | 0.02% | — | — | 0.05% | 2026-10-12 |
-| OKX | partner | 0.05% | 0.02% | 50% | 60% for 2 weeks | 0.025% | 2026-09-27 |
+| OKX | partner | 0.05% | 0.02% | 50% | 60% for 2 weeks | 0.025% | 2026-10-16 |
 | Bybit | reference | 0.055% | 0.02% | — | — | 0.055% | 2026-10-12 |
 | Bitget | reference | 0.06% | 0.02% | — | — | 0.06% | 2026-10-12 |
 
@@ -72,6 +72,7 @@ Citation metadata: `CITATION.cff` and `.zenodo.json` describe the same dataset; 
 
 ## Recent changes
 
+- 2026-10-16: AlphaX lastChecked 2026-09-18 → 2026-10-16; BingX lastChecked 2026-09-15 → 2026-10-16; OKX lastChecked 2026-09-27 → 2026-10-16
 - 2026-10-15: MEXC source https://loweef.io/en/exchange/mexc/ → https://www.mexc.com/fee; AlphaX source https://loweef.io/en/exchange/alphax/ → https://www.alphax.com/en-us/fees; BingX source https://loweef.io/en/exchange/bingx/ → https://bingx.com/en/support/costs/futures; OKX source https://loweef.io/en/exchange/okx/ → https://www.okx.com/fees
 - 2026-10-14: Initial public release (8 exchanges)
 

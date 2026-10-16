@@ -16,7 +16,7 @@
     "url": "https://loweef.io/en/crypto-futures-fee-index/",
     "html": "Source: <a href=\"https://loweef.io/en/crypto-futures-fee-index/\">loweef Crypto Futures Fee Index</a> (CC BY 4.0)"
   },
-  "asOf": "2026-10-12",
+  "asOf": "2026-10-16",
   "staleDays": 120,
   "units": {
     "fees": "percent of notional per fill"
@@ -57,7 +57,7 @@
       "name": "AlphaX",
       "takerFeePct": 0.05,
       "makerFeePct": 0.02,
-      "lastChecked": "2026-09-18",
+      "lastChecked": "2026-10-16",
       "source": "https://www.alphax.com/en-us/fees",
       "notes": []
     },
@@ -75,7 +75,7 @@
       "name": "BingX",
       "takerFeePct": 0.05,
       "makerFeePct": 0.02,
-      "lastChecked": "2026-09-15",
+      "lastChecked": "2026-10-16",
       "source": "https://bingx.com/en/support/costs/futures",
       "notes": []
     },
@@ -93,7 +93,7 @@
       "name": "OKX",
       "takerFeePct": 0.05,
       "makerFeePct": 0.02,
-      "lastChecked": "2026-09-27",
+      "lastChecked": "2026-10-16",
       "source": "https://www.okx.com/fees",
       "notes": []
     },

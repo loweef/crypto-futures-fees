@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 type: dataset
 title: "loweef Crypto Futures Fee Index"
-version: "1.20261015"
-date-released: "2026-10-12"
+version: "1.20261016"
+date-released: "2026-10-16"
 url: "https://loweef.io/en/crypto-futures-fee-index/"
 repository-code: "https://github.com/loweef/crypto-futures-fees"
 license: CC-BY-4.0

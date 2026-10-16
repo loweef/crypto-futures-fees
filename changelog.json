@@ -8,6 +8,39 @@
   },
   "entries": [
     {
+      "date": "2026-10-16",
+      "contentHash": "082f3128",
+      "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-10-16.json",
+      "summary": [
+        "AlphaX lastChecked 2026-09-18 → 2026-10-16",
+        "BingX lastChecked 2026-09-15 → 2026-10-16",
+        "OKX lastChecked 2026-09-27 → 2026-10-16"
+      ],
+      "changes": [
+        {
+          "type": "changed",
+          "exchange": "AlphaX",
+          "field": "lastChecked",
+          "from": "2026-09-18",
+          "to": "2026-10-16"
+        },
+        {
+          "type": "changed",
+          "exchange": "BingX",
+          "field": "lastChecked",
+          "from": "2026-09-15",
+          "to": "2026-10-16"
+        },
+        {
+          "type": "changed",
+          "exchange": "OKX",
+          "field": "lastChecked",
+          "from": "2026-09-27",
+          "to": "2026-10-16"
+        }
+      ]
+    },
+    {
       "date": "2026-10-15",
       "contentHash": "765fbb65",
       "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-10-15.json",
