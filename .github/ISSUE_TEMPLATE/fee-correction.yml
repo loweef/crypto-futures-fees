@@ -1,0 +1,64 @@
+name: Fee correction
+description: "Report a fee in this dataset that differs from the exchange's official fee page"
+title: "Fee correction: "
+body:
+  - type: markdown
+    attributes:
+      value: "A report never changes the data by itself: the value is checked against the exchange's official fee page first. There is no reward. If your report is accepted, it can be credited by the display name below (optional) in the change feed and the monthly report. This repository is public: do not post email addresses, UIDs or API keys."
+  - type: dropdown
+    id: exchange
+    attributes:
+      label: Exchange
+      options:
+        - "AlphaX"
+        - "Binance"
+        - "BingX"
+        - "Bitget"
+        - "Bybit"
+        - "Kraken"
+        - "MEXC"
+        - "OKX"
+        - "Other"
+    validations:
+      required: true
+  - type: dropdown
+    id: field
+    attributes:
+      label: Fee type
+      options:
+        - "Futures taker fee"
+        - "Futures maker fee"
+        - "Spot taker fee"
+        - "Spot maker fee"
+    validations:
+      required: true
+  - type: input
+    id: value
+    attributes:
+      label: "Correct fee (%)"
+      description: "Standard (VIP 0) fee as a percentage, between -1 and 2"
+      placeholder: "0.05"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source URL
+      description: "A link on the exchange's own website that shows this fee"
+      placeholder: "https://"
+    validations:
+      required: true
+  - type: input
+    id: observed
+    attributes:
+      label: Date you saw it
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: Display name for credit (optional)
+      description: "Leave empty to stay anonymous. If filled in and the report is accepted, this name is shown publicly."
+    validations:
+      required: false

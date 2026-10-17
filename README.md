@@ -56,6 +56,10 @@ Footnotes:
 - `kind`: `partner` (a rebate is available via loweef) or `reference` (standard fee only; `userRebatePct` is `null`, not 0).
 - `generatedAt`: build time of the file, not a check date.
 
+## Corrections
+
+If a fee here differs from the exchange's official fee page, open an issue with the **Fee correction** template (or use the form on https://loweef.io/en/crypto-futures-fee-index/#report-error). A report never changes the data by itself: the value is checked against the official page first, and there is no reward. Accepted reports can be credited by display name in the change feed and the monthly report, only if you ask for it. This repository is public, so do not post email addresses, UIDs or API keys in issues.
+
 ## License and attribution
 
 The data is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (see `LICENSE`). You may copy, share and adapt it, including for commercial use, if you credit the source with a link:
