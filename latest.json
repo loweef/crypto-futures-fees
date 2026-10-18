@@ -17,7 +17,7 @@
     "html": "Source: <a href=\"https://loweef.io/en/crypto-futures-fee-index/\">loweef Crypto Futures Fee Index</a> (CC BY 4.0)"
   },
   "asOf": "2026-10-16",
-  "generatedAt": "2026-10-16T06:44:01.189Z",
+  "generatedAt": "2026-10-18T09:04:44.626Z",
   "staleDays": 120,
   "units": {
     "fees": "percent of notional per fill",
@@ -50,7 +50,7 @@
       },
       "effectiveTakerFeePct": 0.018,
       "effectiveMakerFeePct": 0,
-      "lastChecked": "2026-10-08",
+      "lastChecked": "2026-10-16",
       "source": "https://www.mexc.com/fee",
       "notes": [
         {
@@ -164,5 +164,5 @@
       "notes": []
     }
   ],
-  "contentHash": "082f3128"
+  "contentHash": "d6b0affd"
 }

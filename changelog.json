@@ -8,6 +8,23 @@
   },
   "entries": [
     {
+      "date": "2026-10-17",
+      "contentHash": "d6b0affd",
+      "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-10-17.json",
+      "summary": [
+        "MEXC lastChecked 2026-10-08 → 2026-10-16"
+      ],
+      "changes": [
+        {
+          "type": "changed",
+          "exchange": "MEXC",
+          "field": "lastChecked",
+          "from": "2026-10-08",
+          "to": "2026-10-16"
+        }
+      ]
+    },
+    {
       "date": "2026-10-16",
       "contentHash": "082f3128",
       "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-10-16.json",

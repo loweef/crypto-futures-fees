@@ -1,6 +1,6 @@
 # loweef Crypto Futures Fee Index · as of 2026-10-16 · CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/) · Source: loweef Crypto Futures Fee Index https://loweef.io/en/crypto-futures-fee-index/
 exchange_id,exchange,kind,taker_fee_pct,maker_fee_pct,user_rebate_pct,welcome_boost_weeks,welcome_boost_user_rebate_pct,effective_taker_fee_pct,effective_maker_fee_pct,last_checked,source
-mexc,MEXC,partner,0.04,0,55,2,65,0.018,0,2026-10-08,https://www.mexc.com/fee
+mexc,MEXC,partner,0.04,0,55,2,65,0.018,0,2026-10-16,https://www.mexc.com/fee
 alphax,AlphaX,partner,0.05,0.02,65,,,0.0175,0.007,2026-10-16,https://www.alphax.com/en-us/fees
 binance,Binance,reference,0.05,0.02,,,,0.05,0.02,2026-10-12,https://www.binance.com/en/fee/futureFee
 bingx,BingX,partner,0.05,0.02,60,2,70,0.02,0.008,2026-10-16,https://bingx.com/en/support/costs/futures

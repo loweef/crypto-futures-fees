@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "name": "loweef Crypto Futures Fee Index",
+  "description": "Standard (VIP 0) USDT-margined perpetual futures taker/maker fees by exchange, the user fee-rebate rate available via loweef, and the resulting effective fee.",
+  "publisher": {
+    "name": "loweef",
+    "url": "https://loweef.io"
+  },
+  "license": {
+    "id": "CC-BY-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "attribution": {
+    "text": "Source: loweef Crypto Futures Fee Index",
+    "url": "https://loweef.io/en/crypto-futures-fee-index/",
+    "html": "Source: <a href=\"https://loweef.io/en/crypto-futures-fee-index/\">loweef Crypto Futures Fee Index</a> (CC BY 4.0)"
+  },
+  "asOf": "2026-10-16",
+  "generatedAt": "2026-10-17T00:00:00Z",
+  "staleDays": 120,
+  "units": {
+    "fees": "percent of notional per fill",
+    "userRebatePct": "percent of the trading fee paid"
+  },
+  "definitions": {
+    "userRebatePct": "Total share of each trading fee returned to the trader. null = no rebate via loweef.",
+    "effectiveTakerFeePct": "takerFeePct × (1 − userRebatePct/100).",
+    "welcomeBoost": "Higher userRebatePct during the first N weeks after linking an account; null when none.",
+    "lastChecked": "Date the row was last checked against the exchange's official fee page. Rows older than staleDays are removed."
+  },
+  "distributions": {
+    "page": "https://loweef.io/en/crypto-futures-fee-index/",
+    "json": "https://loweef.io/data/fees/v1/latest.json",
+    "csv": "https://loweef.io/data/fees/v1/latest.csv",
+    "changelog": "https://loweef.io/data/fees/v1/changelog.json",
+    "snapshots": "https://loweef.io/data/fees/v1/snapshots/"
+  },
+  "exchanges": [
+    {
+      "id": "mexc",
+      "name": "MEXC",
+      "kind": "partner",
+      "takerFeePct": 0.04,
+      "makerFeePct": 0,
+      "userRebatePct": 55,
+      "welcomeBoost": {
+        "weeks": 2,
+        "userRebatePct": 65
+      },
+      "effectiveTakerFeePct": 0.018,
+      "effectiveMakerFeePct": 0,
+      "lastChecked": "2026-10-16",
+      "source": "https://www.mexc.com/fee",
+      "notes": [
+        {
+          "field": "makerFeePct",
+          "text": "MEXC may apply a different futures maker fee in some regions (such as parts of Asia, the Middle East, Africa and Latin America). Go by the rate shown on your trading screen."
+        }
+      ]
+    },
+    {
+      "id": "alphax",
+      "name": "AlphaX",
+      "kind": "partner",
+      "takerFeePct": 0.05,
+      "makerFeePct": 0.02,
+      "userRebatePct": 65,
+      "welcomeBoost": null,
+      "effectiveTakerFeePct": 0.0175,
+      "effectiveMakerFeePct": 0.007,
+      "lastChecked": "2026-10-16",
+      "source": "https://www.alphax.com/en-us/fees",
+      "notes": []
+    },
+    {
+      "id": "binance",
+      "name": "Binance",
+      "kind": "reference",
+      "takerFeePct": 0.05,
+      "makerFeePct": 0.02,
+      "userRebatePct": null,
+      "welcomeBoost": null,
+      "effectiveTakerFeePct": 0.05,
+      "effectiveMakerFeePct": 0.02,
+      "lastChecked": "2026-10-12",
+      "source": "https://www.binance.com/en/fee/futureFee",
+      "notes": []
+    },
+    {
+      "id": "bingx",
+      "name": "BingX",
+      "kind": "partner",
+      "takerFeePct": 0.05,
+      "makerFeePct": 0.02,
+      "userRebatePct": 60,
+      "welcomeBoost": {
+        "weeks": 2,
+        "userRebatePct": 70
+      },
+      "effectiveTakerFeePct": 0.02,
+      "effectiveMakerFeePct": 0.008,
+      "lastChecked": "2026-10-16",
+      "source": "https://bingx.com/en/support/costs/futures",
+      "notes": []
+    },
+    {
+      "id": "kraken",
+      "name": "Kraken",
+      "kind": "reference",
+      "takerFeePct": 0.05,
+      "makerFeePct": 0.02,
+      "userRebatePct": null,
+      "welcomeBoost": null,
+      "effectiveTakerFeePct": 0.05,
+      "effectiveMakerFeePct": 0.02,
+      "lastChecked": "2026-10-12",
+      "source": "https://www.kraken.com/features/fee-schedule",
+      "notes": []
+    },
+    {
+      "id": "okx",
+      "name": "OKX",
+      "kind": "partner",
+      "takerFeePct": 0.05,
+      "makerFeePct": 0.02,
+      "userRebatePct": 50,
+      "welcomeBoost": {
+        "weeks": 2,
+        "userRebatePct": 60
+      },
+      "effectiveTakerFeePct": 0.025,
+      "effectiveMakerFeePct": 0.01,
+      "lastChecked": "2026-10-16",
+      "source": "https://www.okx.com/fees",
+      "notes": []
+    },
+    {
+      "id": "bybit",
+      "name": "Bybit",
+      "kind": "reference",
+      "takerFeePct": 0.055,
+      "makerFeePct": 0.02,
+      "userRebatePct": null,
+      "welcomeBoost": null,
+      "effectiveTakerFeePct": 0.055,
+      "effectiveMakerFeePct": 0.02,
+      "lastChecked": "2026-10-12",
+      "source": "https://www.bybit.com/en/help-center/article/Trading-Fee-Structure",
+      "notes": []
+    },
+    {
+      "id": "bitget",
+      "name": "Bitget",
+      "kind": "reference",
+      "takerFeePct": 0.06,
+      "makerFeePct": 0.02,
+      "userRebatePct": null,
+      "welcomeBoost": null,
+      "effectiveTakerFeePct": 0.06,
+      "effectiveMakerFeePct": 0.02,
+      "lastChecked": "2026-10-12",
+      "source": "https://www.bitget.com/support/articles/12560603817155",
+      "notes": []
+    }
+  ],
+  "contentHash": "d6b0affd"
+}
