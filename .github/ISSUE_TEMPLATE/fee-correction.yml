@@ -10,7 +10,6 @@ body:
     attributes:
       label: Exchange
       options:
-        - "AlphaX"
         - "Binance"
         - "BingX"
         - "Bitget"

@@ -17,7 +17,7 @@
     "html": "Source: <a href=\"https://loweef.io/en/crypto-futures-fee-index/\">loweef Crypto Futures Fee Index</a> (CC BY 4.0)"
   },
   "asOf": "2026-10-16",
-  "generatedAt": "2026-10-18T09:04:44.626Z",
+  "generatedAt": "2026-10-20T10:40:39.461Z",
   "staleDays": 120,
   "units": {
     "fees": "percent of notional per fill",
@@ -58,20 +58,6 @@
           "text": "MEXC may apply a different futures maker fee in some regions (such as parts of Asia, the Middle East, Africa and Latin America). Go by the rate shown on your trading screen."
         }
       ]
-    },
-    {
-      "id": "alphax",
-      "name": "AlphaX",
-      "kind": "partner",
-      "takerFeePct": 0.05,
-      "makerFeePct": 0.02,
-      "userRebatePct": 65,
-      "welcomeBoost": null,
-      "effectiveTakerFeePct": 0.0175,
-      "effectiveMakerFeePct": 0.007,
-      "lastChecked": "2026-10-16",
-      "source": "https://www.alphax.com/en-us/fees",
-      "notes": []
     },
     {
       "id": "binance",
@@ -138,14 +124,17 @@
     {
       "id": "bybit",
       "name": "Bybit",
-      "kind": "reference",
+      "kind": "partner",
       "takerFeePct": 0.055,
       "makerFeePct": 0.02,
-      "userRebatePct": null,
-      "welcomeBoost": null,
-      "effectiveTakerFeePct": 0.055,
-      "effectiveMakerFeePct": 0.02,
-      "lastChecked": "2026-10-12",
+      "userRebatePct": 37,
+      "welcomeBoost": {
+        "weeks": 2,
+        "userRebatePct": 47
+      },
+      "effectiveTakerFeePct": 0.0347,
+      "effectiveMakerFeePct": 0.0126,
+      "lastChecked": "2026-10-16",
       "source": "https://www.bybit.com/en/help-center/article/Trading-Fee-Structure",
       "notes": []
     },
@@ -164,5 +153,5 @@
       "notes": []
     }
   ],
-  "contentHash": "d6b0affd"
+  "contentHash": "e1e9f47a"
 }

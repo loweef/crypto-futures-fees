@@ -27,12 +27,11 @@ This repository only mirrors the published files. Commits happen only when the c
 | Exchange | Type | Taker | Maker | User rebate | Welcome boost | Effective taker | Last checked |
 |---|---|---|---|---|---|---|---|
 | MEXC | partner | 0.04% | 0%* | 55% | 65% for 2 weeks | 0.018% | 2026-10-16 |
-| AlphaX | partner | 0.05% | 0.02% | 65% | — | 0.0175% | 2026-10-16 |
 | Binance | reference | 0.05% | 0.02% | — | — | 0.05% | 2026-10-12 |
 | BingX | partner | 0.05% | 0.02% | 60% | 70% for 2 weeks | 0.02% | 2026-10-16 |
 | Kraken | reference | 0.05% | 0.02% | — | — | 0.05% | 2026-10-12 |
 | OKX | partner | 0.05% | 0.02% | 50% | 60% for 2 weeks | 0.025% | 2026-10-16 |
-| Bybit | reference | 0.055% | 0.02% | — | — | 0.055% | 2026-10-12 |
+| Bybit | partner | 0.055% | 0.02% | 37% | 47% for 2 weeks | 0.0347% | 2026-10-16 |
 | Bitget | reference | 0.06% | 0.02% | — | — | 0.06% | 2026-10-12 |
 
 \* MEXC: MEXC may apply a different futures maker fee in some regions (such as parts of Asia, the Middle East, Africa and Latin America). Go by the rate shown on your trading screen.
@@ -76,6 +75,7 @@ Citation metadata: `CITATION.cff` and `.zenodo.json` describe the same dataset; 
 
 ## Recent changes
 
+- 2026-10-20: Removed AlphaX; Bybit userRebatePct none → 37; Bybit effectiveTakerFeePct 0.055 → 0.0347; Bybit effectiveMakerFeePct 0.02 → 0.0126; Bybit lastChecked 2026-10-12 → 2026-10-16; Bybit welcomeBoost none → 47 for 2 weeks
 - 2026-10-17: MEXC lastChecked 2026-10-08 → 2026-10-16
 - 2026-10-16: AlphaX lastChecked 2026-09-18 → 2026-10-16; BingX lastChecked 2026-09-15 → 2026-10-16; OKX lastChecked 2026-09-27 → 2026-10-16
 - 2026-10-15: MEXC source https://loweef.io/en/exchange/mexc/ → https://www.mexc.com/fee; AlphaX source https://loweef.io/en/exchange/alphax/ → https://www.alphax.com/en-us/fees; BingX source https://loweef.io/en/exchange/bingx/ → https://bingx.com/en/support/costs/futures; OKX source https://loweef.io/en/exchange/okx/ → https://www.okx.com/fees

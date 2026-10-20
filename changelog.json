@@ -8,6 +8,63 @@
   },
   "entries": [
     {
+      "date": "2026-10-20",
+      "contentHash": "e1e9f47a",
+      "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-10-20.json",
+      "summary": [
+        "Removed AlphaX",
+        "Bybit userRebatePct none → 37",
+        "Bybit effectiveTakerFeePct 0.055 → 0.0347",
+        "Bybit effectiveMakerFeePct 0.02 → 0.0126",
+        "Bybit lastChecked 2026-10-12 → 2026-10-16",
+        "Bybit welcomeBoost none → 47 for 2 weeks"
+      ],
+      "changes": [
+        {
+          "type": "removed",
+          "exchange": "AlphaX"
+        },
+        {
+          "type": "changed",
+          "exchange": "Bybit",
+          "field": "userRebatePct",
+          "from": null,
+          "to": 37
+        },
+        {
+          "type": "changed",
+          "exchange": "Bybit",
+          "field": "effectiveTakerFeePct",
+          "from": 0.055,
+          "to": 0.0347
+        },
+        {
+          "type": "changed",
+          "exchange": "Bybit",
+          "field": "effectiveMakerFeePct",
+          "from": 0.02,
+          "to": 0.0126
+        },
+        {
+          "type": "changed",
+          "exchange": "Bybit",
+          "field": "lastChecked",
+          "from": "2026-10-12",
+          "to": "2026-10-16"
+        },
+        {
+          "type": "changed",
+          "exchange": "Bybit",
+          "field": "welcomeBoost",
+          "from": null,
+          "to": {
+            "weeks": 2,
+            "userRebatePct": 47
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-17",
       "contentHash": "d6b0affd",
       "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-10-17.json",

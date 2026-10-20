@@ -53,15 +53,6 @@
       ]
     },
     {
-      "id": "alphax",
-      "name": "AlphaX",
-      "takerFeePct": 0.05,
-      "makerFeePct": 0.02,
-      "lastChecked": "2026-10-16",
-      "source": "https://www.alphax.com/en-us/fees",
-      "notes": []
-    },
-    {
       "id": "binance",
       "name": "Binance",
       "takerFeePct": 0.05,
@@ -102,7 +93,7 @@
       "name": "Bybit",
       "takerFeePct": 0.055,
       "makerFeePct": 0.02,
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-16",
       "source": "https://www.bybit.com/en/help-center/article/Trading-Fee-Structure",
       "notes": []
     },
