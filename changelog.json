@@ -9,7 +9,7 @@
   "entries": [
     {
       "date": "2026-10-20",
-      "contentHash": "e1e9f47a",
+      "contentHash": "36271fca",
       "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-10-20.json",
       "summary": [
         "Removed AlphaX",
@@ -66,7 +66,7 @@
     },
     {
       "date": "2026-10-17",
-      "contentHash": "d6b0affd",
+      "contentHash": "ff19380d",
       "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-10-17.json",
       "summary": [
         "MEXC lastChecked 2026-10-08 → 2026-10-16"
@@ -83,7 +83,7 @@
     },
     {
       "date": "2026-10-16",
-      "contentHash": "082f3128",
+      "contentHash": "99789f38",
       "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-10-16.json",
       "summary": [
         "AlphaX lastChecked 2026-09-18 → 2026-10-16",
@@ -116,7 +116,7 @@
     },
     {
       "date": "2026-10-15",
-      "contentHash": "765fbb65",
+      "contentHash": "7a9febcd",
       "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-10-15.json",
       "summary": [
         "MEXC source https://loweef.io/en/exchange/mexc/ → https://www.mexc.com/fee",
@@ -157,7 +157,7 @@
     },
     {
       "date": "2026-10-14",
-      "contentHash": "4d892c50",
+      "contentHash": "dd838268",
       "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-10-14.json",
       "summary": [
         "Initial public release (8 exchanges)"
@@ -168,6 +168,26 @@
           "count": 8
         }
       ]
+    }
+  ],
+  "corrections": [
+    {
+      "date": "2026-10-20",
+      "snapshots": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-20"
+      ],
+      "exchange": "MEXC",
+      "fields": [
+        "userRebatePct",
+        "welcomeBoost",
+        "effectiveTakerFeePct",
+        "effectiveMakerFeePct"
+      ],
+      "note": "MEXC user rebate figures were corrected to the rate permitted under the exchange's partner terms, and the welcome boost was removed. Standard fees, check dates, sources and all other rows are unchanged."
     }
   ]
 }

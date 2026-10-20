@@ -26,7 +26,7 @@ This repository only mirrors the published files. Commits happen only when the c
 
 | Exchange | Type | Taker | Maker | User rebate | Welcome boost | Effective taker | Last checked |
 |---|---|---|---|---|---|---|---|
-| MEXC | partner | 0.04% | 0%* | 55% | 65% for 2 weeks | 0.018% | 2026-10-16 |
+| MEXC | partner | 0.04% | 0%* | 50% | — | 0.02% | 2026-10-16 |
 | Binance | reference | 0.05% | 0.02% | — | — | 0.05% | 2026-10-12 |
 | BingX | partner | 0.05% | 0.02% | 60% | 70% for 2 weeks | 0.02% | 2026-10-16 |
 | Kraken | reference | 0.05% | 0.02% | — | — | 0.05% | 2026-10-12 |
