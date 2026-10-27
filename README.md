@@ -2,48 +2,74 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23410593.svg)](https://doi.org/10.5281/zenodo.23410593)
 
-Source: loweef Crypto Futures Fee Index — https://loweef.io/en/crypto-futures-fee-index/ (CC BY 4.0)
-
-Standard (VIP 0) USDT-margined perpetual futures taker and maker fees by exchange, the user fee-rebate rate available via [loweef](https://loweef.io/en/crypto-futures-fee-index/), and the resulting effective fee. Every row carries the date it was last checked against the exchange's official fee page.
+Standard (VIP 0) taker and maker fees on USDT-margined perpetual futures, by exchange. Every row carries the date it was last checked against the exchange's official fee page and a link to that page. CSV and JSON, licensed CC BY 4.0.
 
 - Data as of: **2026-10-16** (latest row check date)
-- Human-readable page, method and FAQ: https://loweef.io/en/crypto-futures-fee-index/
-- Live files: https://loweef.io/data/fees/v1/latest.json · https://loweef.io/data/fees/v1/latest.csv · https://loweef.io/data/fees/v1/changelog.json
+- Source: loweef Crypto Futures Fee Index — https://loweef.io/en/crypto-futures-fee-index/ (method and FAQ)
 
-## Files
+## Fees only (current data)
 
-| File | Content |
-|---|---|
-| `latest.json` | Current dataset (schema v1) |
-| `latest.csv` | Same rows as CSV (first line is a license/source comment) |
-| `fees-only.json` / `fees-only.csv` | Fees only: exchange, taker and maker fee, check date, official source and footnotes. No rebate columns |
-| `changelog.json` | Every published change, newest first, with a link to the snapshot |
-| `snapshots/YYYY-MM-DD.json` | Immutable copy of the dataset on the day its content changed |
+From `fees-only.csv` / `fees-only.json`. Fees are in percent of notional per fill.
 
-This repository only mirrors the published files. Commits happen only when the content changes.
-
-## Current data
-
-| Exchange | Type | Taker | Maker | User rebate | Welcome boost | Effective taker | Last checked |
-|---|---|---|---|---|---|---|---|
-| MEXC | partner | 0.04% | 0%* | 50% | — | 0.02% | 2026-10-16 |
-| Binance | reference | 0.05% | 0.02% | — | — | 0.05% | 2026-10-12 |
-| BingX | partner | 0.05% | 0.02% | 60% | 70% for 2 weeks | 0.02% | 2026-10-16 |
-| Kraken | reference | 0.05% | 0.02% | — | — | 0.05% | 2026-10-12 |
-| OKX | partner | 0.05% | 0.02% | 50% | 60% for 2 weeks | 0.025% | 2026-10-16 |
-| Bybit | partner | 0.055% | 0.02% | 37% | 47% for 2 weeks | 0.0347% | 2026-10-16 |
-| Bitget | reference | 0.06% | 0.02% | — | — | 0.06% | 2026-10-12 |
-
-\* MEXC: MEXC may apply a different futures maker fee in some regions (such as parts of Asia, the Middle East, Africa and Latin America). Go by the rate shown on your trading screen.
-
-## Fees only
-
-`fees-only.json` and `fees-only.csv` carry the same rows as `latest.*` without the rebate columns (`kind`, `user_rebate_pct`, `welcome_boost_*`, `effective_*`). Columns: `exchange_id`, `exchange`, `taker_fee_pct`, `maker_fee_pct`, `last_checked`, `source`, `notes`. Use them when you only need exchange fees.
+| Exchange | Taker | Maker | Last checked | Official source |
+|---|---|---|---|---|
+| MEXC* | 0.04% | 0% | 2026-10-16 | https://www.mexc.com/fee |
+| Binance | 0.05% | 0.02% | 2026-10-12 | https://www.binance.com/en/fee/futureFee |
+| BingX | 0.05% | 0.02% | 2026-10-16 | https://bingx.com/en/support/costs/futures |
+| Kraken | 0.05% | 0.02% | 2026-10-12 | https://www.kraken.com/features/fee-schedule |
+| OKX | 0.05% | 0.02% | 2026-10-16 | https://www.okx.com/fees |
+| Bybit | 0.055% | 0.02% | 2026-10-16 | https://www.bybit.com/en/help-center/article/Trading-Fee-Structure |
+| Bitget | 0.06% | 0.02% | 2026-10-12 | https://www.bitget.com/support/articles/12560603817155 |
 
 Footnotes:
 
 - MEXC (`takerFeePct`): Taker 0.04% is the standard rate for the USDT-M BTCUSDT perpetual. MEXC sets futures fees per contract, and this value matches the official fee page (Futures tab, checked 2026-10-14), the public contract API (BTC_USDT, checked 2026-10-08) and the fee charged on a real trade (checked 2026-08-24). Other contracts can differ (for example ETHUSDT taker 0.02%), so a table that lists 0.02% for MEXC may be quoting a different contract.
 - MEXC (`makerFeePct`): MEXC may apply a different futures maker fee in some regions (such as parts of Asia, the Middle East, Africa and Latin America). Go by the rate shown on your trading screen.
+
+## Quick start
+
+Python (pandas) — the first CSV line is a license/source comment:
+
+```python
+import pandas as pd
+fees = pd.read_csv("https://raw.githubusercontent.com/loweef/crypto-futures-fees/main/fees-only.csv", comment="#")
+```
+
+Shell (JSON):
+
+```sh
+curl -s https://raw.githubusercontent.com/loweef/crypto-futures-fees/main/fees-only.json
+```
+
+Columns: `exchange_id`, `exchange`, `taker_fee_pct`, `maker_fee_pct`, `last_checked`, `source`, `notes`.
+
+## Files
+
+| File | Content |
+|---|---|
+| `fees-only.json` / `fees-only.csv` | Fees only: exchange, taker and maker fee, check date, official source and footnotes. No rebate columns |
+| `latest.json` | Full dataset (schema v1), including the rebate columns described below |
+| `latest.csv` | Same rows as `latest.json` as CSV (first line is a license/source comment) |
+| `changelog.json` | Every published change, newest first, with a link to the snapshot |
+| `snapshots/YYYY-MM-DD.json` | Immutable copy of the full dataset on the day its content changed (includes the rebate columns) |
+
+This repository only mirrors the published files. Commits happen only when the content changes. Live copies: https://loweef.io/data/fees/v1/latest.json · https://loweef.io/data/fees/v1/latest.csv · https://loweef.io/data/fees/v1/changelog.json
+
+## Full dataset: rebate columns
+
+Disclosure: loweef is a fee-rebate service with affiliate ties to some of the listed exchanges; the fees-only files exclude all commercial fields.
+
+`latest.*` and `snapshots/` add these columns to the same rows: `kind`, `user_rebate_pct`, `welcome_boost_*`, `effective_*`. The rebate is the share of trading fees returned to the user through loweef; the effective taker fee is the standard taker fee after that rebate.
+
+| Exchange | Type | User rebate | Welcome boost | Effective taker |
+|---|---|---|---|---|
+| MEXC | partner | 50% | — | 0.02% |
+| Binance | reference | — | — | 0.05% |
+| BingX | partner | 60% | 70% for 2 weeks | 0.02% |
+| Kraken | reference | — | — | 0.05% |
+| OKX | partner | 50% | 60% for 2 weeks | 0.025% |
+| Bybit | partner | 37% | 47% for 2 weeks | 0.0347% |
+| Bitget | reference | — | — | 0.06% |
 
 ## Fields
 
