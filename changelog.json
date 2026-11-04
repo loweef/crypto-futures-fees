@@ -8,6 +8,20 @@
   },
   "entries": [
     {
+      "date": "2026-11-04",
+      "contentHash": "0306d4a9",
+      "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-11-04.json",
+      "summary": [
+        "Added Toobit"
+      ],
+      "changes": [
+        {
+          "type": "added",
+          "exchange": "Toobit"
+        }
+      ]
+    },
+    {
       "date": "2026-10-20",
       "contentHash": "36271fca",
       "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-10-20.json",

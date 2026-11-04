@@ -1,4 +1,4 @@
-# loweef Crypto Futures Fee Index · as of 2026-10-16 · CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/) · Source: loweef Crypto Futures Fee Index https://loweef.io/en/crypto-futures-fee-index/
+# loweef Crypto Futures Fee Index · as of 2026-10-27 · CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/) · Source: loweef Crypto Futures Fee Index https://loweef.io/en/crypto-futures-fee-index/
 exchange_id,exchange,kind,taker_fee_pct,maker_fee_pct,user_rebate_pct,welcome_boost_weeks,welcome_boost_user_rebate_pct,effective_taker_fee_pct,effective_maker_fee_pct,last_checked,source
 mexc,MEXC,partner,0.04,0,50,,,0.02,0,2026-10-16,https://www.mexc.com/fee
 binance,Binance,reference,0.05,0.02,,,,0.05,0.02,2026-10-12,https://www.binance.com/en/fee/futureFee
@@ -7,3 +7,4 @@ kraken,Kraken,reference,0.05,0.02,,,,0.05,0.02,2026-10-12,https://www.kraken.com
 okx,OKX,partner,0.05,0.02,50,2,60,0.025,0.01,2026-10-16,https://www.okx.com/fees
 bybit,Bybit,partner,0.055,0.02,37,2,47,0.0347,0.0126,2026-10-16,https://www.bybit.com/en/help-center/article/Trading-Fee-Structure
 bitget,Bitget,reference,0.06,0.02,,,,0.06,0.02,2026-10-12,https://www.bitget.com/support/articles/12560603817155
+toobit,Toobit,partner,0.06,0.02,70,2,80,0.018,0.006,2026-10-27,https://www.toobit.com/support/fee-rate

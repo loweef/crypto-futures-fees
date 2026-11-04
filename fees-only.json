@@ -16,7 +16,7 @@
     "url": "https://loweef.io/en/crypto-futures-fee-index/",
     "html": "Source: <a href=\"https://loweef.io/en/crypto-futures-fee-index/\">loweef Crypto Futures Fee Index</a> (CC BY 4.0)"
   },
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-27",
   "staleDays": 120,
   "units": {
     "fees": "percent of notional per fill"
@@ -104,6 +104,15 @@
       "makerFeePct": 0.02,
       "lastChecked": "2026-10-12",
       "source": "https://www.bitget.com/support/articles/12560603817155",
+      "notes": []
+    },
+    {
+      "id": "toobit",
+      "name": "Toobit",
+      "takerFeePct": 0.06,
+      "makerFeePct": 0.02,
+      "lastChecked": "2026-10-27",
+      "source": "https://www.toobit.com/support/fee-rate",
       "notes": []
     }
   ]
