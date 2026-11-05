@@ -4,7 +4,7 @@
 
 Standard (VIP 0) taker and maker fees on USDT-margined perpetual futures, by exchange. Every row carries the date it was last checked against the exchange's official fee page and a link to that page. CSV and JSON, licensed CC BY 4.0.
 
-- Data as of: **2026-10-27** (latest row check date)
+- Data as of: **2026-11-04** (latest row check date)
 - Source: loweef Crypto Futures Fee Index — https://loweef.io/en/crypto-futures-fee-index/ (method and FAQ)
 
 ## Fees only (current data)
@@ -20,6 +20,7 @@ From `fees-only.csv` / `fees-only.json`. Fees are in percent of notional per fil
 | OKX | 0.05% | 0.02% | 2026-10-16 | https://www.okx.com/fees |
 | Bybit | 0.055% | 0.02% | 2026-10-16 | https://www.bybit.com/en/help-center/article/Trading-Fee-Structure |
 | Bitget | 0.06% | 0.02% | 2026-10-12 | https://www.bitget.com/support/articles/12560603817155 |
+| OrangeX | 0.06% | 0.02% | 2026-11-04 | https://www.orangex.com/agreement/fee-rates |
 | Toobit | 0.06% | 0.02% | 2026-10-27 | https://www.toobit.com/support/fee-rate |
 
 Footnotes:
@@ -71,6 +72,7 @@ Disclosure: loweef is a fee-rebate service with affiliate ties to some of the li
 | OKX | partner | 50% | 60% for 2 weeks | 0.025% |
 | Bybit | partner | 37% | 47% for 2 weeks | 0.0347% |
 | Bitget | reference | — | — | 0.06% |
+| OrangeX | partner | 70% | — | 0.018% |
 | Toobit | partner | 70% | 80% for 2 weeks | 0.018% |
 
 ## Fields
@@ -103,6 +105,7 @@ Citation metadata: `CITATION.cff` and `.zenodo.json` describe the same dataset; 
 
 ## Recent changes
 
+- 2026-11-05: Added OrangeX
 - 2026-11-04: Added Toobit
 - 2026-10-20: Removed AlphaX; Bybit userRebatePct none → 37; Bybit effectiveTakerFeePct 0.055 → 0.0347; Bybit effectiveMakerFeePct 0.02 → 0.0126; Bybit lastChecked 2026-10-12 → 2026-10-16; Bybit welcomeBoost none → 47 for 2 weeks
 - 2026-10-17: MEXC lastChecked 2026-10-08 → 2026-10-16

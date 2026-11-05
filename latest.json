@@ -16,8 +16,8 @@
     "url": "https://loweef.io/en/crypto-futures-fee-index/",
     "html": "Source: <a href=\"https://loweef.io/en/crypto-futures-fee-index/\">loweef Crypto Futures Fee Index</a> (CC BY 4.0)"
   },
-  "asOf": "2026-10-27",
-  "generatedAt": "2026-11-04T08:15:00.875Z",
+  "asOf": "2026-11-04",
+  "generatedAt": "2026-11-05T00:29:30.324Z",
   "staleDays": 120,
   "units": {
     "fees": "percent of notional per fill",
@@ -150,6 +150,20 @@
       "notes": []
     },
     {
+      "id": "orangex",
+      "name": "OrangeX",
+      "kind": "partner",
+      "takerFeePct": 0.06,
+      "makerFeePct": 0.02,
+      "userRebatePct": 70,
+      "welcomeBoost": null,
+      "effectiveTakerFeePct": 0.018,
+      "effectiveMakerFeePct": 0.006,
+      "lastChecked": "2026-11-04",
+      "source": "https://www.orangex.com/agreement/fee-rates",
+      "notes": []
+    },
+    {
       "id": "toobit",
       "name": "Toobit",
       "kind": "partner",
@@ -167,5 +181,5 @@
       "notes": []
     }
   ],
-  "contentHash": "0306d4a9"
+  "contentHash": "ccfe2278"
 }

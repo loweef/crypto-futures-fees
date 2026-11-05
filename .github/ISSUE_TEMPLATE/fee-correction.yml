@@ -17,6 +17,7 @@ body:
         - "Kraken"
         - "MEXC"
         - "OKX"
+        - "OrangeX"
         - "Toobit"
         - "Other"
     validations:
