@@ -8,6 +8,20 @@
   },
   "entries": [
     {
+      "date": "2026-11-06",
+      "contentHash": "e441b981",
+      "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-11-06.json",
+      "summary": [
+        "Added Bitunix"
+      ],
+      "changes": [
+        {
+          "type": "added",
+          "exchange": "Bitunix"
+        }
+      ]
+    },
+    {
       "date": "2026-11-05",
       "contentHash": "ccfe2278",
       "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-11-05.json",
