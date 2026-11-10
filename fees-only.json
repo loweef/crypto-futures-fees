@@ -35,24 +35,6 @@
   },
   "exchanges": [
     {
-      "id": "mexc",
-      "name": "MEXC",
-      "takerFeePct": 0.04,
-      "makerFeePct": 0,
-      "lastChecked": "2026-10-16",
-      "source": "https://www.mexc.com/fee",
-      "notes": [
-        {
-          "field": "takerFeePct",
-          "text": "Taker 0.04% is the standard rate for the USDT-M BTCUSDT perpetual. MEXC sets futures fees per contract, and this value matches the official fee page (Futures tab, checked 2026-10-14), the public contract API (BTC_USDT, checked 2026-10-08) and the fee charged on a real trade (checked 2026-08-24). Other contracts can differ (for example ETHUSDT taker 0.02%), so a table that lists 0.02% for MEXC may be quoting a different contract."
-        },
-        {
-          "field": "makerFeePct",
-          "text": "MEXC may apply a different futures maker fee in some regions (such as parts of Asia, the Middle East, Africa and Latin America). Go by the rate shown on your trading screen."
-        }
-      ]
-    },
-    {
       "id": "binance",
       "name": "Binance",
       "takerFeePct": 0.05,

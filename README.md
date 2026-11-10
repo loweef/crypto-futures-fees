@@ -13,7 +13,6 @@ From `fees-only.csv` / `fees-only.json`. Fees are in percent of notional per fil
 
 | Exchange | Taker | Maker | Last checked | Official source |
 |---|---|---|---|---|
-| MEXC* | 0.04% | 0% | 2026-10-16 | https://www.mexc.com/fee |
 | Binance | 0.05% | 0.02% | 2026-10-12 | https://www.binance.com/en/fee/futureFee |
 | BingX | 0.05% | 0.02% | 2026-10-16 | https://bingx.com/en/support/costs/futures |
 | Kraken | 0.05% | 0.02% | 2026-10-12 | https://www.kraken.com/features/fee-schedule |
@@ -23,11 +22,6 @@ From `fees-only.csv` / `fees-only.json`. Fees are in percent of notional per fil
 | Bitunix | 0.06% | 0.02% | 2026-11-05 | https://www.bitunix.com/service/handling-fee |
 | OrangeX | 0.06% | 0.02% | 2026-11-04 | https://www.orangex.com/agreement/fee-rates |
 | Toobit | 0.06% | 0.02% | 2026-10-27 | https://www.toobit.com/support/fee-rate |
-
-Footnotes:
-
-- MEXC (`takerFeePct`): Taker 0.04% is the standard rate for the USDT-M BTCUSDT perpetual. MEXC sets futures fees per contract, and this value matches the official fee page (Futures tab, checked 2026-10-14), the public contract API (BTC_USDT, checked 2026-10-08) and the fee charged on a real trade (checked 2026-08-24). Other contracts can differ (for example ETHUSDT taker 0.02%), so a table that lists 0.02% for MEXC may be quoting a different contract.
-- MEXC (`makerFeePct`): MEXC may apply a different futures maker fee in some regions (such as parts of Asia, the Middle East, Africa and Latin America). Go by the rate shown on your trading screen.
 
 ## Quick start
 
@@ -66,7 +60,6 @@ Disclosure: loweef is a fee-rebate service with affiliate ties to some of the li
 
 | Exchange | Type | User rebate | Welcome boost | Effective taker |
 |---|---|---|---|---|
-| MEXC | partner | 50% | — | 0.02% |
 | Binance | reference | — | — | 0.05% |
 | BingX | partner | 60% | 70% for 2 weeks | 0.02% |
 | Kraken | reference | — | — | 0.05% |
@@ -107,6 +100,7 @@ Citation metadata: `CITATION.cff` and `.zenodo.json` describe the same dataset; 
 
 ## Recent changes
 
+- 2026-11-09: Removed MEXC
 - 2026-11-06: Added Bitunix
 - 2026-11-05: Added OrangeX
 - 2026-11-04: Added Toobit

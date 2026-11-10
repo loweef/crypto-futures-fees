@@ -17,7 +17,7 @@
     "html": "Source: <a href=\"https://loweef.io/en/crypto-futures-fee-index/\">loweef Crypto Futures Fee Index</a> (CC BY 4.0)"
   },
   "asOf": "2026-11-05",
-  "generatedAt": "2026-11-06T00:22:36.463Z",
+  "generatedAt": "2026-11-10T01:24:25.017Z",
   "staleDays": 120,
   "units": {
     "fees": "percent of notional per fill",
@@ -37,25 +37,6 @@
     "snapshots": "https://loweef.io/data/fees/v1/snapshots/"
   },
   "exchanges": [
-    {
-      "id": "mexc",
-      "name": "MEXC",
-      "kind": "partner",
-      "takerFeePct": 0.04,
-      "makerFeePct": 0,
-      "userRebatePct": 50,
-      "welcomeBoost": null,
-      "effectiveTakerFeePct": 0.02,
-      "effectiveMakerFeePct": 0,
-      "lastChecked": "2026-10-16",
-      "source": "https://www.mexc.com/fee",
-      "notes": [
-        {
-          "field": "makerFeePct",
-          "text": "MEXC may apply a different futures maker fee in some regions (such as parts of Asia, the Middle East, Africa and Latin America). Go by the rate shown on your trading screen."
-        }
-      ]
-    },
     {
       "id": "binance",
       "name": "Binance",
@@ -195,5 +176,5 @@
       "notes": []
     }
   ],
-  "contentHash": "e441b981"
+  "contentHash": "41067702"
 }
