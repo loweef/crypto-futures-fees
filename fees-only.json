@@ -16,7 +16,7 @@
     "url": "https://loweef.io/en/crypto-futures-fee-index/",
     "html": "Source: <a href=\"https://loweef.io/en/crypto-futures-fee-index/\">loweef Crypto Futures Fee Index</a> (CC BY 4.0)"
   },
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-12",
   "staleDays": 120,
   "units": {
     "fees": "percent of notional per fill"
@@ -50,6 +50,15 @@
       "makerFeePct": 0.02,
       "lastChecked": "2026-10-16",
       "source": "https://bingx.com/en/support/costs/futures",
+      "notes": []
+    },
+    {
+      "id": "gate",
+      "name": "Gate",
+      "takerFeePct": 0.05,
+      "makerFeePct": 0.02,
+      "lastChecked": "2026-11-12",
+      "source": "https://www.gate.com/fee",
       "notes": []
     },
     {

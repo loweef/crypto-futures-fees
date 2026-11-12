@@ -8,6 +8,20 @@
   },
   "entries": [
     {
+      "date": "2026-11-12",
+      "contentHash": "4e9bad21",
+      "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-11-12.json",
+      "summary": [
+        "Added Gate"
+      ],
+      "changes": [
+        {
+          "type": "added",
+          "exchange": "Gate"
+        }
+      ]
+    },
+    {
       "date": "2026-11-09",
       "contentHash": "41067702",
       "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-11-09.json",

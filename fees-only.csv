@@ -1,7 +1,8 @@
-# loweef Crypto Futures Fee Index (fees only) · as of 2026-11-05 · CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/) · Source: loweef Crypto Futures Fee Index https://loweef.io/en/crypto-futures-fee-index/
+# loweef Crypto Futures Fee Index (fees only) · as of 2026-11-12 · CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/) · Source: loweef Crypto Futures Fee Index https://loweef.io/en/crypto-futures-fee-index/
 exchange_id,exchange,taker_fee_pct,maker_fee_pct,last_checked,source,notes
 binance,Binance,0.05,0.02,2026-10-12,https://www.binance.com/en/fee/futureFee,
 bingx,BingX,0.05,0.02,2026-10-16,https://bingx.com/en/support/costs/futures,
+gate,Gate,0.05,0.02,2026-11-12,https://www.gate.com/fee,
 kraken,Kraken,0.05,0.02,2026-10-12,https://www.kraken.com/features/fee-schedule,
 okx,OKX,0.05,0.02,2026-10-16,https://www.okx.com/fees,
 bybit,Bybit,0.055,0.02,2026-10-16,https://www.bybit.com/en/help-center/article/Trading-Fee-Structure,

@@ -4,7 +4,7 @@
 
 Standard (VIP 0) taker and maker fees on USDT-margined perpetual futures, by exchange. Every row carries the date it was last checked against the exchange's official fee page and a link to that page. CSV and JSON, licensed CC BY 4.0.
 
-- Data as of: **2026-11-05** (latest row check date)
+- Data as of: **2026-11-12** (latest row check date)
 - Source: loweef Crypto Futures Fee Index — https://loweef.io/en/crypto-futures-fee-index/ (method and FAQ)
 
 ## Fees only (current data)
@@ -15,6 +15,7 @@ From `fees-only.csv` / `fees-only.json`. Fees are in percent of notional per fil
 |---|---|---|---|---|
 | Binance | 0.05% | 0.02% | 2026-10-12 | https://www.binance.com/en/fee/futureFee |
 | BingX | 0.05% | 0.02% | 2026-10-16 | https://bingx.com/en/support/costs/futures |
+| Gate | 0.05% | 0.02% | 2026-11-12 | https://www.gate.com/fee |
 | Kraken | 0.05% | 0.02% | 2026-10-12 | https://www.kraken.com/features/fee-schedule |
 | OKX | 0.05% | 0.02% | 2026-10-16 | https://www.okx.com/fees |
 | Bybit | 0.055% | 0.02% | 2026-10-16 | https://www.bybit.com/en/help-center/article/Trading-Fee-Structure |
@@ -62,6 +63,7 @@ Disclosure: loweef is a fee-rebate service with affiliate ties to some of the li
 |---|---|---|---|---|
 | Binance | reference | — | — | 0.05% |
 | BingX | partner | 60% | 70% for 2 weeks | 0.02% |
+| Gate | partner | 65% | 75% for 2 weeks | 0.0175% |
 | Kraken | reference | — | — | 0.05% |
 | OKX | partner | 50% | 60% for 2 weeks | 0.025% |
 | Bybit | partner | 37% | 47% for 2 weeks | 0.0347% |
@@ -100,6 +102,7 @@ Citation metadata: `CITATION.cff` and `.zenodo.json` describe the same dataset; 
 
 ## Recent changes
 
+- 2026-11-12: Added Gate
 - 2026-11-09: Removed MEXC
 - 2026-11-06: Added Bitunix
 - 2026-11-05: Added OrangeX
