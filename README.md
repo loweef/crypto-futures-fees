@@ -4,7 +4,7 @@
 
 Standard (VIP 0) taker and maker fees on USDT-margined perpetual futures, by exchange. Every row carries the date it was last checked against the exchange's official fee page and a link to that page. CSV and JSON, licensed CC BY 4.0.
 
-- Data as of: **2026-11-12** (latest row check date)
+- Data as of: **2026-11-13** (latest row check date)
 - Source: loweef Crypto Futures Fee Index — https://loweef.io/en/crypto-futures-fee-index/ (method and FAQ)
 
 ## Fees only (current data)
@@ -13,6 +13,7 @@ From `fees-only.csv` / `fees-only.json`. Fees are in percent of notional per fil
 
 | Exchange | Taker | Maker | Last checked | Official source |
 |---|---|---|---|---|
+| Grvt | 0.045% | -0.0001% | 2026-11-13 | https://help.grvt.io/en/articles/9614699-how-does-grvt-s-fee-model-work |
 | Binance | 0.05% | 0.02% | 2026-10-12 | https://www.binance.com/en/fee/futureFee |
 | BingX | 0.05% | 0.02% | 2026-10-16 | https://bingx.com/en/support/costs/futures |
 | Gate | 0.05% | 0.02% | 2026-11-12 | https://www.gate.com/fee |
@@ -61,6 +62,7 @@ Disclosure: loweef is a fee-rebate service with affiliate ties to some of the li
 
 | Exchange | Type | User rebate | Welcome boost | Effective taker |
 |---|---|---|---|---|
+| Grvt | partner | 55% | 65% for 2 weeks | 0.0202% |
 | Binance | reference | — | — | 0.05% |
 | BingX | partner | 60% | 70% for 2 weeks | 0.02% |
 | Gate | partner | 65% | 75% for 2 weeks | 0.0175% |
@@ -102,6 +104,7 @@ Citation metadata: `CITATION.cff` and `.zenodo.json` describe the same dataset; 
 
 ## Recent changes
 
+- 2026-11-16: Added Grvt
 - 2026-11-12: Added Gate
 - 2026-11-09: Removed MEXC
 - 2026-11-06: Added Bitunix
@@ -111,6 +114,5 @@ Citation metadata: `CITATION.cff` and `.zenodo.json` describe the same dataset; 
 - 2026-10-17: MEXC lastChecked 2026-10-08 → 2026-10-16
 - 2026-10-16: AlphaX lastChecked 2026-09-18 → 2026-10-16; BingX lastChecked 2026-09-15 → 2026-10-16; OKX lastChecked 2026-09-27 → 2026-10-16
 - 2026-10-15: MEXC source https://loweef.io/en/exchange/mexc/ → https://www.mexc.com/fee; AlphaX source https://loweef.io/en/exchange/alphax/ → https://www.alphax.com/en-us/fees; BingX source https://loweef.io/en/exchange/bingx/ → https://bingx.com/en/support/costs/futures; OKX source https://loweef.io/en/exchange/okx/ → https://www.okx.com/fees
-- 2026-10-14: Initial public release (8 exchanges)
 
 Exchanges change their fees. Check the exchange before you trade. This data is information, not financial advice.

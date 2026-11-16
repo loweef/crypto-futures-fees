@@ -16,8 +16,8 @@
     "url": "https://loweef.io/en/crypto-futures-fee-index/",
     "html": "Source: <a href=\"https://loweef.io/en/crypto-futures-fee-index/\">loweef Crypto Futures Fee Index</a> (CC BY 4.0)"
   },
-  "asOf": "2026-11-12",
-  "generatedAt": "2026-11-12T12:32:25.881Z",
+  "asOf": "2026-11-13",
+  "generatedAt": "2026-11-16T12:02:34.674Z",
   "staleDays": 120,
   "units": {
     "fees": "percent of notional per fill",
@@ -37,6 +37,23 @@
     "snapshots": "https://loweef.io/data/fees/v1/snapshots/"
   },
   "exchanges": [
+    {
+      "id": "grvt",
+      "name": "Grvt",
+      "kind": "partner",
+      "takerFeePct": 0.045,
+      "makerFeePct": -0.0001,
+      "userRebatePct": 55,
+      "welcomeBoost": {
+        "weeks": 2,
+        "userRebatePct": 65
+      },
+      "effectiveTakerFeePct": 0.0202,
+      "effectiveMakerFeePct": 0,
+      "lastChecked": "2026-11-13",
+      "source": "https://help.grvt.io/en/articles/9614699-how-does-grvt-s-fee-model-work",
+      "notes": []
+    },
     {
       "id": "binance",
       "name": "Binance",
@@ -193,5 +210,5 @@
       "notes": []
     }
   ],
-  "contentHash": "4e9bad21"
+  "contentHash": "00bfa669"
 }

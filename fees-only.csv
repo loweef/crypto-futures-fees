@@ -1,5 +1,6 @@
-# loweef Crypto Futures Fee Index (fees only) · as of 2026-11-12 · CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/) · Source: loweef Crypto Futures Fee Index https://loweef.io/en/crypto-futures-fee-index/
+# loweef Crypto Futures Fee Index (fees only) · as of 2026-11-13 · CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/) · Source: loweef Crypto Futures Fee Index https://loweef.io/en/crypto-futures-fee-index/
 exchange_id,exchange,taker_fee_pct,maker_fee_pct,last_checked,source,notes
+grvt,Grvt,0.045,-0.0001,2026-11-13,https://help.grvt.io/en/articles/9614699-how-does-grvt-s-fee-model-work,
 binance,Binance,0.05,0.02,2026-10-12,https://www.binance.com/en/fee/futureFee,
 bingx,BingX,0.05,0.02,2026-10-16,https://bingx.com/en/support/costs/futures,
 gate,Gate,0.05,0.02,2026-11-12,https://www.gate.com/fee,
