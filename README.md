@@ -70,8 +70,8 @@ Disclosure: loweef is a fee-rebate service with affiliate ties to some of the li
 | OKX | partner | 50% | 60% for 2 weeks | 0.025% |
 | Bybit | partner | 37% | 47% for 2 weeks | 0.0347% |
 | Bitget | reference | — | — | 0.06% |
-| Bitunix | partner | 70% | — | 0.018% |
-| OrangeX | partner | 70% | — | 0.018% |
+| Bitunix | partner | 70% | 80% for 2 weeks | 0.018% |
+| OrangeX | partner | 70% | 80% for 2 weeks | 0.018% |
 | Toobit | partner | 70% | 80% for 2 weeks | 0.018% |
 
 ## Fields
@@ -104,6 +104,7 @@ Citation metadata: `CITATION.cff` and `.zenodo.json` describe the same dataset; 
 
 ## Recent changes
 
+- 2026-11-17: Bitunix welcomeBoost none → 80 for 2 weeks; OrangeX welcomeBoost none → 80 for 2 weeks
 - 2026-11-16: Added Grvt
 - 2026-11-12: Added Gate
 - 2026-11-09: Removed MEXC
@@ -113,6 +114,5 @@ Citation metadata: `CITATION.cff` and `.zenodo.json` describe the same dataset; 
 - 2026-10-20: Removed AlphaX; Bybit userRebatePct none → 37; Bybit effectiveTakerFeePct 0.055 → 0.0347; Bybit effectiveMakerFeePct 0.02 → 0.0126; Bybit lastChecked 2026-10-12 → 2026-10-16; Bybit welcomeBoost none → 47 for 2 weeks
 - 2026-10-17: MEXC lastChecked 2026-10-08 → 2026-10-16
 - 2026-10-16: AlphaX lastChecked 2026-09-18 → 2026-10-16; BingX lastChecked 2026-09-15 → 2026-10-16; OKX lastChecked 2026-09-27 → 2026-10-16
-- 2026-10-15: MEXC source https://loweef.io/en/exchange/mexc/ → https://www.mexc.com/fee; AlphaX source https://loweef.io/en/exchange/alphax/ → https://www.alphax.com/en-us/fees; BingX source https://loweef.io/en/exchange/bingx/ → https://bingx.com/en/support/costs/futures; OKX source https://loweef.io/en/exchange/okx/ → https://www.okx.com/fees
 
 Exchanges change their fees. Check the exchange before you trade. This data is information, not financial advice.

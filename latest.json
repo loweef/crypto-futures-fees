@@ -17,7 +17,7 @@
     "html": "Source: <a href=\"https://loweef.io/en/crypto-futures-fee-index/\">loweef Crypto Futures Fee Index</a> (CC BY 4.0)"
   },
   "asOf": "2026-11-13",
-  "generatedAt": "2026-11-16T12:02:34.674Z",
+  "generatedAt": "2026-11-17T05:00:13.592Z",
   "staleDays": 120,
   "units": {
     "fees": "percent of notional per fill",
@@ -171,7 +171,10 @@
       "takerFeePct": 0.06,
       "makerFeePct": 0.02,
       "userRebatePct": 70,
-      "welcomeBoost": null,
+      "welcomeBoost": {
+        "weeks": 2,
+        "userRebatePct": 80
+      },
       "effectiveTakerFeePct": 0.018,
       "effectiveMakerFeePct": 0.006,
       "lastChecked": "2026-11-05",
@@ -185,7 +188,10 @@
       "takerFeePct": 0.06,
       "makerFeePct": 0.02,
       "userRebatePct": 70,
-      "welcomeBoost": null,
+      "welcomeBoost": {
+        "weeks": 2,
+        "userRebatePct": 80
+      },
       "effectiveTakerFeePct": 0.018,
       "effectiveMakerFeePct": 0.006,
       "lastChecked": "2026-11-04",
@@ -210,5 +216,5 @@
       "notes": []
     }
   ],
-  "contentHash": "00bfa669"
+  "contentHash": "25cde68d"
 }

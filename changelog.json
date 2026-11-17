@@ -8,6 +8,37 @@
   },
   "entries": [
     {
+      "date": "2026-11-17",
+      "contentHash": "25cde68d",
+      "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-11-17.json",
+      "summary": [
+        "Bitunix welcomeBoost none → 80 for 2 weeks",
+        "OrangeX welcomeBoost none → 80 for 2 weeks"
+      ],
+      "changes": [
+        {
+          "type": "changed",
+          "exchange": "Bitunix",
+          "field": "welcomeBoost",
+          "from": null,
+          "to": {
+            "weeks": 2,
+            "userRebatePct": 80
+          }
+        },
+        {
+          "type": "changed",
+          "exchange": "OrangeX",
+          "field": "welcomeBoost",
+          "from": null,
+          "to": {
+            "weeks": 2,
+            "userRebatePct": 80
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-11-16",
       "contentHash": "00bfa669",
       "snapshot": "https://loweef.io/data/fees/v1/snapshots/2026-11-16.json",
